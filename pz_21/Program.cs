@@ -16,7 +16,6 @@ namespace pz_21
         public int Bitrate { get; set; }
         public string Type { get; set; }
 
-
         public void PrintInfo (string author, string title, string album, int year, int bitrate, string type)
         {
             Author = author;
